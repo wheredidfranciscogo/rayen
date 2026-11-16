@@ -68,10 +68,12 @@ Do not work the old queue. Work this one.
       it is public writing in Francisco's name and needs his read first. Pages: `/about`,
       `/guides` and three guides, `/privacy`. The story guide does not mention how the app was
       built (with Claude Code); that is his call.
-- [ ] **Keyword Planner.** Retry the Google branding check (after the 24-hour wait from
-      2026-11-13), apply for Basic access, then run `generateKeywordHistoricalMetrics` for the
-      phrases in `status/SEO-SURVEY.md`. Without ad spend the numbers may be broad ranges.
-- [ ] **Decide the real domain** before posting listings; the drafts link to the vercel.app address.
+- [ ] **Study who ranks for "plant care app" and "plant tracker"** (step 2 of the
+      `keyword-research` skill) and record the gap in `status/SEO-SURVEY.md`.
+- [ ] **Press "Request indexing"** for `/about` and the guides in Search Console, then check
+      the queries with gum every few weeks. Index state on 2026-11-14: discovered, not crawled.
+- [ ] **Post the Product Hunt and AlternativeTo listings** (drafts exist; screenshots in
+      `marketing-assets/`). They link to the vercel.app address, which is staying for now.
 - [ ] **Writing, not just reading.** The per-plant journal and the log render but cannot
       be added to from the UI. The data model and the store action (`logAction`) already
       support it; only the input is missing.

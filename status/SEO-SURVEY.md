@@ -78,7 +78,8 @@ Consequences for the site:
 
 ## Not known yet
 
-- Absolute search volume for any of the above. Needs Keyword Planner: through the Google Ads
-  API (Basic access, blocked on the OAuth brand check) or through the Ads website. Likely broad
-  ranges only, since the Ads account has no spend.
+- Absolute search volume for any of the above. Deliberately not pursued: Keyword Planner was
+  dropped on 2026-11-14 (it needed Basic access and an unresolved OAuth brand check, and would
+  show broad ranges without ad spend). Trends sizes the phrases and Search Console will show
+  real searches once the pages are indexed.
 - Whether WaterMe or others still maintain a web version. Not checked.

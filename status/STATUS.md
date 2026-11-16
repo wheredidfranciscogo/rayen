@@ -79,11 +79,18 @@ it ran, and was confirmed to fail on a deliberately broken link.
 **Same day, outside the repo.** A first survey of who ranks for plant-app searches
 (`status/SEO-SURVEY.md`), listing drafts for Product Hunt and AlternativeTo, and screenshots in
 `marketing-assets/`. gum is installed and signed in to Search Console and Google Ads. The Ads
-account exists with no campaign. **Keyword Planner is blocked on Google, not on us:** the
-branding check must pass (it asked for a 24-hour wait after ownership was proved) and Basic
-access must then be granted. A call today reaches Google and is refused with "not allowed for
-explorer access". gum also demands a developer token Google retired in September; any
-placeholder value passes through.
+account exists with no campaign. Keyword Planner was blocked on Google (the OAuth branding
+check, then Basic access) and **was dropped on 2026-11-14**: absolute volumes are not worth the
+wait, and without ad spend they would be broad ranges anyway. gum stays for Search Console.
+
+**2026-11-14 — the flow that replaced it.** Who ranks (web search) → how big and when (Google
+Trends, read in Chrome) → the site's own queries (Search Console through gum). It is saved as
+the `keyword-research` and `keyword-trends` skills, so any project uses the same steps. The
+Trends read is in `status/SEO-SURVEY.md`: "plant care app" and "plant tracker" are about ten
+times larger than "plant watering tracker", and every plant phrase peaks March to June. The
+About page's title and description now lead with "plant care app". **The domain stays
+`rayen-garden.vercel.app` for now**; moving it means a backup and restore for every user, so
+the call is to revisit it when people are using the app.
 
 ### 2026-11-12 — Rayen opens without a network
 
