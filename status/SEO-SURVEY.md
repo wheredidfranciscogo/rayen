@@ -40,8 +40,45 @@ Keyword Planner (see the end). Treat everything here as a first read.
 
 Avoid: "plant app", "best plant care app", "plant identification".
 
+## Google Trends read, 2026-11-14
+
+Method: worldwide, web search, read from the Explore page (skill: `keyword-trends`). Relative
+numbers: 100 = peak of the biggest phrase in the batch. Two batches (5 years, then 12 months)
+that share "plant tracker" and "plant care app". The 12-month batch carries the sizing; the
+5-year batch is only for seasonality and for "plant app" and "planta app".
+
+| Phrase | Size (12 months, "plant tracker" = 1×) | Notes |
+| --- | --- | --- |
+| plant tracker | 1× (average 39) | Measurable, but ambiguous: rising related queries are fitness trackers |
+| plant care app | about 0.8× (average 31) | Measurable and clean. Rising related: "free plant care app android" |
+| plant watering app | about 0.13× (average 5) | Small. Only related query: "best plant watering app" |
+| plant reminder app | about 0.03× (average 1) | Barely registers |
+| plant watering tracker | no data | Too small for Trends. This is the phrase the About page leads with |
+| houseplant tracker | no data | Too small for Trends |
+| plant app | 20 against 1–2 for the rest (5-year batch) | **Polluted.** Its 2025–26 surge came with "chatgpt app" and "ai news today" as rising queries. Not evidence |
+| planta app | about 2 (5-year batch) | Brand search, small and steady |
+
+Seasonality: every plant phrase peaks March to June and bottoms out October to November, the
+same shape in each of the last five years (northern-hemisphere spring). It is November now:
+"plant tracker" sits at 5 against a spring peak of 100.
+
+Top regions for "plant app": Kenya, Nigeria, New Zealand, South Africa, India (English-speaking,
+mostly non-US). For "plant tracker": Hong Kong, Kazakhstan, Algeria, Finland, Philippines.
+
+Consequences for the site:
+
+1. The About page leads with "plant watering tracker", which Trends cannot even measure.
+   "Plant care app" and "plant tracker" are roughly ten times larger and both describe Rayen.
+   Worth working one or both into the About title or description. Not changed yet.
+2. Index the site before spring. Search interest is at its yearly low, so there are about four
+   months to be crawled and ranked before the March–May rise.
+3. Skip "plant app" as a target, as the web survey above already advised: now confirmed noisy.
+4. Trends sizes phrases but gives no monthly volumes. Autocomplete, Search Console and the Ads
+   website's Keyword Planner are the next layers.
+
 ## Not known yet
 
-- Search volume for any of the above. Needs Keyword Planner through the Google Ads API
-  (Basic access) — and possibly broad ranges only, if the Ads account has no spend.
+- Absolute search volume for any of the above. Needs Keyword Planner: through the Google Ads
+  API (Basic access, blocked on the OAuth brand check) or through the Ads website. Likely broad
+  ranges only, since the Ads account has no spend.
 - Whether WaterMe or others still maintain a web version. Not checked.
